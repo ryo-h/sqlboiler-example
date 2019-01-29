@@ -1,0 +1,5 @@
+development:
+  dialect: postgres
+  dir: src/migration
+  # datasource: postgres:mysecretpassword1234@tcp(127.0.0.1)/localdb?charset=utf8mb4&collation=utf8mb4_general_ci&parseTime=true&sslmode=disable
+  datasource: dbname=localdb user=postgres password=mysecretpassword1234 host=127.0.0.1 sslmode=disable
